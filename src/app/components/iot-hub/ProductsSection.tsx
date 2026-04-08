@@ -1,5 +1,5 @@
 import { ArrowRight, ExternalLink, Battery, Sun, Plug, Wifi, Globe, Cpu, CheckCircle2 } from "lucide-react";
-import exampleImage from "figma:asset/dcb446166647abcc8ee830c4c01755566e01676f.png";
+import exampleImage from "@/assets/dcb446166647abcc8ee830c4c01755566e01676f.png";
 
 const trackerImg = "https://images.unsplash.com/photo-1668207985574-8aa41b3a3708?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxHUFMlMjBhc3NldCUyMHRyYWNrZXIlMjBkZXZpY2UlMjBoYXJkd2FyZSUyMHRlY2hub2xvZ3l8ZW58MXx8fHwxNzc0OTczNTQ5fDA&ixlib=rb-4.1.0&q=80&w=600";
 const esimImg = "https://images.unsplash.com/photo-1754292471061-a9dd19ccf23e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlU0lNJTIwU0lNJTIwY2FyZCUyMGNvbm5lY3Rpdml0eSUyMG1vYmlsZSUyMG5ldHdvcmslMjBjaGlwfGVufDF8fHx8MTc3NDk3MzU1MXww&ixlib=rb-4.1.0&q=80&w=600";

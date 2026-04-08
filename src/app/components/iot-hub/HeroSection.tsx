@@ -1,5 +1,5 @@
 import { ArrowRight, Play, Wifi, Globe, Cpu } from "lucide-react";
-import exampleImage from "figma:asset/dcb446166647abcc8ee830c4c01755566e01676f.png";
+import exampleImage from "@/assets/dcb446166647abcc8ee830c4c01755566e01676f.png";
 
 const heroImg = "https://images.unsplash.com/photo-1609868714484-2b2556006301?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJb1QlMjBjb25uZWN0ZWQlMjBkZXZpY2VzJTIwbmV0d29yayUyMGdsb2JlJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzQ5NzM1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080";
 

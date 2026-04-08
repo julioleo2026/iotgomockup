@@ -14,6 +14,8 @@ export default defineConfig({
     alias: {
       // Alias @ to the src directory
       '@': path.resolve(__dirname, './src'),
+      // Support Figma Make asset imports when deploying outside Figma
+      'figma:asset': path.resolve(__dirname, './src/assets'),
     },
   },
 
