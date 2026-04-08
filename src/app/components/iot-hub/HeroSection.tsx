@@ -68,18 +68,6 @@ export function HeroSection() {
               </a>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl">
-              {[
-                { value: "190+", label: "countries connected" },
-                { value: "580M+", label: "eSIM profiles delivered" },
-                { value: "10B+", label: "IoT devices supported" },
-              ].map((item) => (
-                <div key={item.label} className="rounded-2xl p-5" style={{ background: "#FFFFFF", border: "1px solid #E5E7EB" }}>
-                  <div style={{ color: "#111827", fontWeight: 800, fontSize: 22, lineHeight: 1.1 }}>{item.value}</div>
-                  <div style={{ color: "#64748B", fontSize: 12.5, marginTop: 6 }}>{item.label}</div>
-                </div>
-              ))}
-            </div>
           </div>
 
           <div>

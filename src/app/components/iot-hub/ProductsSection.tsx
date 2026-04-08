@@ -27,7 +27,7 @@ const connectivity_features = [
 
 export function ProductsSection() {
   return (
-    <section id="products" style={{ background: "#ffffff", paddingTop: 80, paddingBottom: 80 }}>
+    <section id="products" style={{ background: "#F0F5FA", paddingTop: 80, paddingBottom: 80 }}>
       <div className="max-w-screen-xl mx-auto px-6">
         {/* Header */}
         <div className="flex items-end justify-between mb-12">
