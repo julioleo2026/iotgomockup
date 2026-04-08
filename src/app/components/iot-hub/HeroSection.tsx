@@ -74,7 +74,7 @@ export function HeroSection() {
             <div className="rounded-[28px] overflow-hidden" style={{ background: "#FFFFFF", border: "1px solid #E5E7EB", boxShadow: "0 24px 60px rgba(15, 23, 42, 0.08)" }}>
               <div className="p-4" style={{ borderBottom: "1px solid #E5E7EB", background: "#F8FAFC" }}>
                 <div style={{ color: "#005BAC", fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em" }}>
-                  Featured experience
+                  Featured report
                 </div>
               </div>
               <div className="relative" style={{ height: 420 }}>

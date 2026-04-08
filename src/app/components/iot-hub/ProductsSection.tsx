@@ -5,9 +5,9 @@ const trackerImg = "https://images.unsplash.com/photo-1668207985574-8aa41b3a3708
 const esimImg = "https://images.unsplash.com/photo-1754292471061-a9dd19ccf23e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlU0lNJTIwU0lNJTIwY2FyZCUyMGNvbm5lY3Rpdml0eSUyMG1vYmlsZSUyMG5ldHdvcmslMjBjaGlwfGVufDF8fHx8MTc3NDk3MzU1MXww&ixlib=rb-4.1.0&q=80&w=600";
 
 const trackerProducts = [
-  { name: "IoTgo® Track-Solar gte", icon: <Sun size={14} />, color: "#B45309", bg: "#FEF4E5", desc: "Solar-powered outdoor asset tracker with global eSIM, IP67 rated.", tags: ["Solar", "GNSS", "LTE-M"] },
-  { name: "IoTgo® Track-Battery Pro", icon: <Battery size={14} />, color: "#005BAC", bg: "#EAF2FC", desc: "Long-life battery tracker (5+ years standby) for containers and pallets.", tags: ["Battery", "BLE", "NB-IoT"] },
-  { name: "IoTgo® Track-Wired CAN", icon: <Plug size={14} />, color: "#0A8A62", bg: "#E6F6F1", desc: "Wired vehicle tracker with CAN bus integration and real-time telemetry.", tags: ["Wired", "CAN Bus", "4G LTE"] },
+  { name: "IoTgo® Track-Solar Advanced", icon: <Sun size={14} />, color: "#B45309", bg: "#FEF4E5", desc: "Solar-powered outdoor asset tracker with global eSIM, IP67 rated.", tags: ["Solar", "GNSS", "LTE-M"] },
+  { name: "IoTgo® Track-Solar Ultra", icon: <Battery size={14} />, color: "#005BAC", bg: "#EAF2FC", desc: "Long-life battery tracker (5+ years standby) for containers and pallets.", tags: ["Battery", "BLE", "NB-IoT"] },
+  { name: "IoTgo® Smart Label", icon: <Plug size={14} />, color: "#0A8A62", bg: "#E6F6F1", desc: "Wired vehicle tracker with CAN bus integration and real-time telemetry.", tags: ["Wired", "CAN Bus", "4G LTE"] },
 ];
 
 const connectivityProducts = [
