@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowRight, BookOpen, Video, FileText, Newspaper, BarChart2, Clock, Tag } from "lucide-react";
+import { ArrowRight, BookOpen, Video, FileText, Newspaper, BarChart2, Clock, Tag, Code2 } from "lucide-react";
 
 const webinarImg = "https://images.unsplash.com/photo-1758598306845-8630d064a244?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWJpbmFyJTIwdmlydHVhbCUyMGNvbmZlcmVuY2UlMjBvbmxpbmUlMjBwcmVzZW50YXRpb24lMjBidXNpbmVzc3xlbnwxfHx8fDE3NzQ5NzM1NTF8MA&ixlib=rb-4.1.0&q=80&w=600";
 const mfgImg = "https://images.unsplash.com/photo-1761195696590-3490ea770aa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwbWFudWZhY3R1cmluZyUyMHNtYXJ0JTIwZmFjdG9yeSUyMGF1dG9tYXRpb258ZW58MXx8fHwxNzc0OTczNTQyfDA&ixlib=rb-4.1.0&q=80&w=600";
@@ -77,6 +77,15 @@ export function ResourcesSection() {
               {cat.icon} {cat.label}
             </button>
           ))}
+          <a
+            href="#for-developers"
+            className="flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium transition-all"
+            style={{ background: "#ffffff", color: "#374151", border: "1.5px solid #D5E3F0" }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#005BAC")}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#D5E3F0")}
+          >
+            <Code2 size={14} /> For developers
+          </a>
         </div>
 
         {/* Featured cards (large) */}
@@ -183,6 +192,23 @@ export function ResourcesSection() {
             ))}
           </div>
         )}
+
+        <div className="mt-8 rounded-2xl p-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4" style={{ background: "#FFFFFF", border: "1px solid #E2EBF5" }}>
+          <div>
+            <div style={{ color: "#005BAC", fontSize: 12, fontWeight: 700, letterSpacing: "0.08em", textTransform: "uppercase" }}>For developers</div>
+            <div style={{ color: "#0F1C2E", fontSize: 20, fontWeight: 700, marginTop: 6, letterSpacing: "-0.02em" }}>Developer documentation has moved to its own page.</div>
+            <p style={{ color: "#5A6C80", fontSize: 14, marginTop: 8, lineHeight: 1.6 }}>
+              Access API references, SDKs, integration guides and sandbox content in the dedicated developer experience.
+            </p>
+          </div>
+          <a
+            href="#for-developers"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold"
+            style={{ background: "#005BAC", color: "#FFFFFF" }}
+          >
+            Open developer page <ArrowRight size={14} />
+          </a>
+        </div>
 
         {filtered.length === 0 && (
           <div className="text-center py-16" style={{ color: "#9CA3AF" }}>

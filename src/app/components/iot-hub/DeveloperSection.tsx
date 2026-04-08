@@ -27,7 +27,7 @@ const devResources = [
 export function DeveloperSection() {
   return (
     <section
-      id="developers"
+      id="for-developers"
       style={{
         background: "linear-gradient(160deg, #001226 0%, #002040 45%, #003070 100%)",
         paddingTop: 80,
