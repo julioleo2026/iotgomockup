@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { ChevronDown, Search, ShoppingCart, Menu, X, ExternalLink, Wifi, Heart, Truck, Zap, ShoppingBag, Shield, MapPin, Factory, Radio, Users, BookOpen, Video, FileText, Newspaper, BarChart2, Package, Cpu, Code2 } from "lucide-react";
+import { ChevronDown, Search, ShoppingCart, Menu, X, ExternalLink, Wifi, Heart, Truck, Zap, ShoppingBag, Shield, MapPin, Factory, Radio, Users, BookOpen, Video, FileText, Newspaper, BarChart2, Package, Cpu, Code2, LogIn } from "lucide-react";
 
 type Route = "home" | "developers";
 type DropdownKey = "sectors" | "resources" | "products" | null;
@@ -186,6 +186,21 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
           <button className="p-2 rounded-lg transition-colors hover:bg-slate-50" style={{ color: "#64748B" }}>
             <Search size={18} />
           </button>
+
+          <a
+            href="https://iotsuite.gi-de.com/login?returnUrl=%2Fdashboard"
+            className="hidden lg:flex items-center gap-2 px-3.5 py-2 rounded-lg text-sm font-medium transition-all"
+            style={{ color: "#374151", background: "transparent" }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#F8FAFC";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "transparent";
+            }}
+          >
+            <LogIn size={15} />
+            Login
+          </a>
 
           <a
             href="#chatbot"
