@@ -1,4 +1,5 @@
 import { Shield, Globe, Award, Users, Cpu, Wifi } from "lucide-react";
+import { CoverageMap } from "./CoverageMap";
 
 const stats = [
   { icon: <Globe size={24} />, value: "190+", label: "Countries & Territories", sub: "Global eSIM coverage", color: "#005BAC", bg: "#EAF2FC" },
@@ -62,6 +63,8 @@ export function TrustSection() {
             </div>
           ))}
         </div>
+
+        <CoverageMap />
 
         {/* Certifications bar */}
         <div
