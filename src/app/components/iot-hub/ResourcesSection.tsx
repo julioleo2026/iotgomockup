@@ -9,7 +9,7 @@ const logisticsImg = "https://images.unsplash.com/photo-1492168732976-2676c584c6
 
 const categories = [
   { key: "all", label: "All", icon: <BarChart2 size={14} /> },
-  { key: "blog", label: "Blog", icon: <BookOpen size={14} /> },
+  { key: "blog", label: "Reports", icon: <BookOpen size={14} /> },
   { key: "webinar", label: "Webinar", icon: <Video size={14} /> },
   { key: "whitepaper", label: "White Papers", icon: <FileText size={14} /> },
   { key: "media", label: "Media Coverage", icon: <Newspaper size={14} /> },
@@ -17,7 +17,7 @@ const categories = [
 ];
 
 const resources = [
-  { id: 1, category: "blog", categoryLabel: "Blog", categoryColor: "#005BAC", title: "eSIM vs. Traditional SIM for Industrial IoT: What You Need to Know", excerpt: "As remote deployments scale, the flexibility of eSIM is becoming a key driver in industrial IoT architecture. Here's a practical comparison.", date: "Mar 18, 2026", readTime: "6 min read", sector: "Industrial", img: mfgImg, featured: true },
+  { id: 1, category: "blog", categoryLabel: "Reports", categoryColor: "#005BAC", title: "eSIM vs. Traditional SIM for Industrial IoT: What You Need to Know", excerpt: "As remote deployments scale, the flexibility of eSIM is becoming a key driver in industrial IoT architecture. Here's a practical comparison.", date: "Mar 18, 2026", readTime: "6 min read", sector: "Industrial", img: mfgImg, featured: true },
   { id: 2, category: "webinar", categoryLabel: "Webinar", categoryColor: "#6C3FC5", title: "IoT Connectivity Masterclass: From SIM to Cloud", excerpt: "On-demand session covering end-to-end IoT connectivity architecture, including G+D's IoTgo® platform and real-world deployment patterns.", date: "Mar 5, 2026", readTime: "45 min", sector: "Cross-Sector", img: webinarImg, featured: true },
   { id: 3, category: "casestudy", categoryLabel: "Case Study", categoryColor: "#0A8A62", title: "How a European Healthcare Network Cut Device Costs by 35% with eSIM", excerpt: "Deploying IoTgo® connectivity across 3,200 remote patient monitoring devices — with zero truck rolls for SIM swaps.", date: "Feb 22, 2026", readTime: "8 min read", sector: "Healthcare", img: healthImg, featured: false },
   { id: 4, category: "whitepaper", categoryLabel: "White Paper", categoryColor: "#B45309", title: "The Future of Smart Metering: LTE-M, NB-IoT & eSIM Convergence", excerpt: "An in-depth technical exploration of next-generation metering connectivity across Europe's evolving energy grid landscape.", date: "Feb 10, 2026", readTime: "24 pages", sector: "Energy", img: energyImg, featured: false },

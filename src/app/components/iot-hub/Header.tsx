@@ -18,7 +18,7 @@ const sectors = [
 ];
 
 const resources = [
-  { label: "Blog", desc: "Expert insights & industry news", icon: <BookOpen size={15} />, href: "#resources" },
+  { label: "Reports", desc: "Expert insights & industry news", icon: <BookOpen size={15} />, href: "#resources" },
   { label: "Webinar", desc: "On-demand & upcoming sessions", icon: <Video size={15} />, href: "#resources" },
   { label: "White Papers", desc: "In-depth technical research", icon: <FileText size={15} />, href: "#resources" },
   { label: "Media Coverage", desc: "Press & industry mentions", icon: <Newspaper size={15} />, href: "#resources" },

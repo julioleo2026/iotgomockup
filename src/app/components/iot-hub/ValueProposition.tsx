@@ -13,7 +13,7 @@ const pillars = [
     color: "#6C3FC5",
     bg: "#F0EAFE",
     title: "Expert Resources",
-    desc: "Blogs, white papers, webinars, and case studies authored by IoT connectivity specialists.",
+    desc: "Reports, white papers, webinars, and case studies authored by IoT connectivity specialists.",
   },
   {
     icon: <Package size={22} />,

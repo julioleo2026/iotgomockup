@@ -17,7 +17,7 @@ const footerLinks = {
     { label: "Security", href: "#" },
   ],
   Resources: [
-    { label: "Blog", href: "#resources" },
+    { label: "Reports", href: "#resources" },
     { label: "Webinars", href: "#resources" },
     { label: "White Papers", href: "#resources" },
     { label: "Case Studies", href: "#resources" },

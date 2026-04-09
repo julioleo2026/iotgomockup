@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Globe, Users, Cpu, Wifi, Network, ChevronLeft, ChevronRight, SimCard, BadgeCheck, CreditCard, Microchip } from "lucide-react";
 import exampleImage from "@/assets/dcb446166647abcc8ee830c4c01755566e01676f.png";
 import { CoverageMap } from "./CoverageMap";
@@ -44,6 +44,14 @@ const testimonials = [
 export function TrustSection() {
   const [activeTestimonial, setActiveTestimonial] = useState(0);
   const currentTestimonial = testimonials[activeTestimonial];
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setActiveTestimonial((prev) => (prev === testimonials.length - 1 ? 0 : prev + 1));
+    }, 3000);
+
+    return () => window.clearInterval(intervalId);
+  }, []);
 
   const showPrevious = () => {
     setActiveTestimonial((prev) => (prev === 0 ? testimonials.length - 1 : prev - 1));
@@ -126,7 +134,7 @@ export function TrustSection() {
                 IoT Connectivity, eSIM and Platform — All in One.
               </h3>
               <p style={{ color: "rgba(255,255,255,0.65)", fontSize: 14, marginTop: 8, lineHeight: 1.6 }}>
-                G+D's IoTgo® platform combines hardware, eSIM, and SIM management into a unified stack — from device to cloud.
+                IoTgo® Control brings together IoT connectivity, eSIM, and SIM management in one unified platform — from deployment to control.
               </p>
             </div>
             <div className="grid grid-cols-1 gap-4 flex-shrink-0" style={{ minWidth: 320 }}>
