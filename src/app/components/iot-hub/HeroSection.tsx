@@ -56,7 +56,7 @@ export function HeroSection() {
               className="mb-8 max-w-2xl"
               style={{ color: "rgba(255,255,255,0.84)", fontSize: 18, lineHeight: 1.7, fontWeight: 400 }}
             >
-              Explore IoTgo® solutions, proof points and expert resources in a cleaner Spotlight-style experience designed around content, trust and product discovery.
+              Explore G+D IoTgo® solutions, proof points and expert resources to connect devices globally, track critical assets and support secure IoT operations at scale.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 mb-10">

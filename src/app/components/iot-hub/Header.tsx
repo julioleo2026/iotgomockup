@@ -27,7 +27,7 @@ const resources = [
 ];
 
 const products = [
-  { label: "Asset Trackers", desc: "Solar, battery & wired trackers", icon: <Package size={15} />, external: false },
+  { label: "Asset Trackers", desc: "IoTgo® Track Solar & Smart Label", icon: <Package size={15} />, external: false },
   { label: "IoT Connectivity", desc: "eSIM, SIM & connectivity plans", icon: <Wifi size={15} />, external: false },
   { label: "IoTgo® Control", desc: "SIM lifecycle & analytics", icon: <Cpu size={15} />, external: false },
   { label: "IoTgo® Track-Fleet", desc: "Fleet tracking & telematics", icon: <Truck size={15} />, external: false },

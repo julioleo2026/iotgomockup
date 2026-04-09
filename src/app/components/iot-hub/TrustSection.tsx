@@ -1,12 +1,12 @@
-import { Shield, Globe, Award, Users, Cpu, Wifi } from "lucide-react";
+import { Globe, Award, Users, Cpu, Wifi, Network } from "lucide-react";
 import { CoverageMap } from "./CoverageMap";
 
 const stats = [
-  { icon: <Globe size={24} />, value: "190+", label: "Countries & Territories", sub: "Global eSIM coverage", color: "#005BAC", bg: "#EAF2FC" },
-  { icon: <Cpu size={24} />, value: "580M+", label: "eSIM Profiles Delivered", sub: "GSMA certified deployments", color: "#6C3FC5", bg: "#F0EAFE" },
-  { icon: <Wifi size={24} />, value: "10B+", label: "Connected Devices Supported", sub: "Across enterprise & consumer", color: "#0082C8", bg: "#E5F3FB" },
-  { icon: <Users size={24} />, value: "160+", label: "Years of G+D Expertise", sub: "Security & trust since 1852", color: "#B45309", bg: "#FEF4E5" },
-  { icon: <Shield size={24} />, value: "ISO 27001", label: "Certified Security", sub: "SOC 2 Type II compliant", color: "#0A8A62", bg: "#E6F6F1" },
+  { icon: <Globe size={24} />, value: "185", label: "Countries & Territories", sub: "Global eSIM coverage", color: "#005BAC", bg: "#EAF2FC" },
+  { icon: <Cpu size={24} />, value: "500M+", label: "eSIM Profiles Delivered", sub: "GSMA certified deployments", color: "#6C3FC5", bg: "#F0EAFE" },
+  { icon: <Wifi size={24} />, value: "1B+", label: "Mobile Devices Managed", sub: "Globally", color: "#0082C8", bg: "#E5F3FB" },
+  { icon: <Users size={24} />, value: "170 +", label: "Years of G+D Experience", sub: "Security & trust since 1852", color: "#B45309", bg: "#FEF4E5" },
+  { icon: <Network size={24} />, value: "600 +", label: "Networks", sub: "Global connectivity reach", color: "#0A8A62", bg: "#E6F6F1" },
   { icon: <Award size={24} />, value: "#1", label: "eSIM Market Leader", sub: "Ranked by GSMA & analysts", color: "#BE1D3B", bg: "#FDE9EC" },
 ];
 
@@ -35,7 +35,7 @@ export function TrustSection() {
             Trusted by Enterprises Worldwide
           </h2>
           <p className="mt-3 max-w-xl mx-auto" style={{ color: "#5A6C80", fontSize: 16, lineHeight: 1.65 }}>
-            G+D's IoT connectivity solutions are deployed across mission-critical use cases in 190+ countries, backed by decades of security expertise.
+            G+D's IoT connectivity solutions are deployed across mission-critical use cases in 185 countries and territories, backed by decades of security expertise.
           </p>
         </div>
 
