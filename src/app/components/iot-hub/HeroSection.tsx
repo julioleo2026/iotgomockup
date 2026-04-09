@@ -1,5 +1,4 @@
-import { ArrowRight, ExternalLink } from "lucide-react";
-import exampleImage from "@/assets/dcb446166647abcc8ee830c4c01755566e01676f.png";
+import { ArrowRight } from "lucide-react";
 import heroBanner from "@/assets/banner.webp";
 
 export function HeroSection() {
@@ -26,7 +25,7 @@ export function HeroSection() {
         }}
       />
       <div className="relative max-w-screen-xl mx-auto px-6 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
+        <div className="grid grid-cols-1 gap-12 items-center">
           <div>
             <div
               className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-6"
@@ -83,33 +82,6 @@ export function HeroSection() {
 
           </div>
 
-          <div>
-            <div className="rounded-[28px] overflow-hidden" style={{ background: "#FFFFFF", border: "1px solid #E5E7EB", boxShadow: "0 24px 60px rgba(15, 23, 42, 0.08)" }}>
-              <div className="p-4" style={{ borderBottom: "1px solid #E5E7EB", background: "#F8FAFC" }}>
-                <div style={{ color: "#005BAC", fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.08em" }}>
-                  Featured report
-                </div>
-              </div>
-              <div className="relative" style={{ height: 420 }}>
-                <img src={exampleImage} alt="IoTgo solutions" className="absolute inset-0 w-full h-full object-cover" />
-                <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(15,23,42,0.82), rgba(15,23,42,0.1) 55%, transparent 100%)" }} />
-                <div className="absolute left-6 right-6 bottom-6">
-                  <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full mb-4" style={{ background: "rgba(255,255,255,0.14)", color: "#FFFFFF", backdropFilter: "blur(8px)" }}>
-                    IoTgo®
-                  </div>
-                  <h2 style={{ color: "#FFFFFF", fontSize: 28, fontWeight: 800, lineHeight: 1.12, letterSpacing: "-0.03em" }}>
-                    Product-led entry point for IoT buyers and experts.
-                  </h2>
-                  <p style={{ color: "rgba(255,255,255,0.82)", fontSize: 14, lineHeight: 1.6, marginTop: 10, maxWidth: 480 }}>
-                    The hub now prioritizes credibility and content first, with products and resources surfaced in a more editorial Spotlight-style layout.
-                  </p>
-                  <a href="https://iotshop.gi-de.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 mt-5" style={{ color: "#FFFFFF", fontSize: 13, fontWeight: 700 }}>
-                    Visit IoT Shop <ExternalLink size={13} />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
