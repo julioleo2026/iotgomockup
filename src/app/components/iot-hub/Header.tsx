@@ -183,6 +183,10 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
         </nav>
 
         <div className="flex items-center gap-2">
+          <button className="p-2 rounded-lg transition-colors hover:bg-slate-50" style={{ color: "#64748B" }}>
+            <Search size={18} />
+          </button>
+
           <a
             href="#chatbot"
             className="hidden lg:flex items-center px-4 py-2 rounded-lg text-sm font-medium transition-all"
@@ -196,10 +200,6 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
           >
             Talk to an expert
           </a>
-
-          <button className="p-2 rounded-lg transition-colors hover:bg-slate-50" style={{ color: "#64748B" }}>
-            <Search size={18} />
-          </button>
 
           <a
             href="https://iotshop.gi-de.com"
