@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Globe, Users, Cpu, Wifi, Network, ChevronLeft, ChevronRight, SimCard, BadgeCheck, CreditCard, Microchip } from "lucide-react";
+import { Globe, Users, Cpu, Wifi, Network, ChevronLeft, ChevronRight, BadgeCheck, CreditCard, Microchip } from "lucide-react";
 import exampleImage from "@/assets/dcb446166647abcc8ee830c4c01755566e01676f.png";
 import { CoverageMap } from "./CoverageMap";
 
@@ -13,7 +13,7 @@ const stats = [
 ];
 
 const fullStackFeatures = [
-  { icon: <SimCard size={16} />, label: "eSIM for IoT" },
+  { icon: <CreditCard size={16} />, label: "eSIM for IoT" },
   { icon: <Globe size={16} />, label: "Global coverage" },
   { icon: <BadgeCheck size={16} />, label: "Localized experience" },
   { icon: <CreditCard size={16} />, label: "3+ billion SIM cards managed" },
