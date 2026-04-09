@@ -1,8 +1,8 @@
 import { ExternalLink, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react";
 
 const footerLinks = {
-  "IoTgo Hub": [
-    { label: "About IoTgo Expert Hub", href: "#" },
+  "IoTgo® Hub": [
+    { label: "About IoTgo® Expert Hub", href: "#" },
     { label: "Spotlight", href: "#" },
     { label: "News & Press", href: "#" },
     { label: "Events & Webinars", href: "#" },
@@ -45,12 +45,12 @@ export function Footer() {
                 <span style={{ color: "white", fontWeight: 800, fontSize: 17 }}>G</span>
               </div>
               <div>
-                <div style={{ color: "white", fontWeight: 700, fontSize: 15, letterSpacing: "-0.01em" }}>IoTgo Expert Hub</div>
+                <div style={{ color: "white", fontWeight: 700, fontSize: 15, letterSpacing: "-0.01em" }}>IoTgo® Expert Hub</div>
                 <div style={{ color: "rgba(255,255,255,0.45)", fontSize: 11 }}>Spotlight</div>
               </div>
             </div>
             <p style={{ color: "rgba(255,255,255,0.58)", fontSize: 13, lineHeight: 1.7, marginBottom: 20 }}>
-              A Spotlight-style destination for IoTgo products, trust-building proof points and expert resources.
+              A Spotlight-style destination for IoTgo® products, trust-building proof points and expert resources.
             </p>
 
             <div className="space-y-2 mb-6">

@@ -202,7 +202,7 @@ export function ProductsSection() {
         >
           <img
             src={exampleImage}
-            alt="IoTgo Full Stack"
+            alt="IoTgo® Full Stack"
             className="absolute inset-0 w-full h-full object-cover"
             style={{ opacity: 0.1, objectPosition: "right center" }}
           />

@@ -30,7 +30,7 @@ export function FloatingChatbot() {
                 <Bot size={18} />
               </div>
               <div>
-                <div style={{ fontSize: 14, fontWeight: 700 }}>IoTgo Assistant</div>
+                <div style={{ fontSize: 14, fontWeight: 700 }}>IoTgo® Assistant</div>
                 <div style={{ fontSize: 11, opacity: 0.8 }}>Demo chatbot pop-up</div>
               </div>
             </div>
@@ -64,7 +64,7 @@ export function FloatingChatbot() {
                   boxShadow: "0 1px 4px rgba(0,0,0,0.05)",
                 }}
               >
-                Hi, I’m the IoTgo Assistant. This is a visual chatbot placeholder so the pop-up interaction is visible in the mockup.
+                Hi, I’m the IoTgo® Assistant. This is a visual chatbot placeholder so the pop-up interaction is visible in the mockup.
               </div>
             </div>
 
@@ -125,7 +125,7 @@ export function FloatingChatbot() {
         >
           {isOpen ? <Minimize2 size={16} /> : <MessageSquare size={16} />}
         </span>
-        Chat with IoTgo
+        Chat with IoTgo®
       </button>
     </div>
   );

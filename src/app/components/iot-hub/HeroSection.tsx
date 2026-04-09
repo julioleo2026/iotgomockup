@@ -33,7 +33,7 @@ export function HeroSection() {
             >
               <div className="w-1.5 h-1.5 rounded-full" style={{ background: "#FFFFFF" }} />
               <span style={{ color: "#FFFFFF", fontSize: 12, letterSpacing: "0.06em", textTransform: "uppercase", fontWeight: 700 }}>
-                G+D Spotlight · IoTgo Expert Hub
+                G+D Spotlight · IoTgo® Expert Hub
               </span>
             </div>
 
@@ -56,7 +56,7 @@ export function HeroSection() {
               className="mb-8 max-w-2xl"
               style={{ color: "rgba(255,255,255,0.84)", fontSize: 18, lineHeight: 1.7, fontWeight: 400 }}
             >
-              Explore IoTgo solutions, proof points and expert resources in a cleaner Spotlight-style experience designed around content, trust and product discovery.
+              Explore IoTgo® solutions, proof points and expert resources in a cleaner Spotlight-style experience designed around content, trust and product discovery.
             </p>
 
             <div className="flex flex-wrap items-center gap-3 mb-10">
