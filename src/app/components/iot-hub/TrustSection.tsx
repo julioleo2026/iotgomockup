@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Globe, Users, Cpu, Wifi, Network, CheckCircle2, ChevronLeft, ChevronRight } from "lucide-react";
+import { Globe, Users, Cpu, Wifi, Network, ChevronLeft, ChevronRight, SimCard, BadgeCheck, CreditCard, Microchip } from "lucide-react";
 import exampleImage from "@/assets/dcb446166647abcc8ee830c4c01755566e01676f.png";
 import { CoverageMap } from "./CoverageMap";
 
@@ -13,12 +13,11 @@ const stats = [
 ];
 
 const fullStackFeatures = [
-  "500M+ eSIM profiles delivered globally",
-  "185 countries and territories covered",
-  "Private APN & network steering",
-  "GSMA SGP.02 and SGP.32 certified",
-  "Real-time connectivity monitoring dashboard",
-  "24/7 enterprise SLA & support",
+  { icon: <SimCard size={16} />, label: "eSIM for IoT" },
+  { icon: <Globe size={16} />, label: "Global coverage" },
+  { icon: <BadgeCheck size={16} />, label: "Localized experience" },
+  { icon: <CreditCard size={16} />, label: "3+ billion SIM cards managed" },
+  { icon: <Microchip size={16} />, label: "500+ million eSIM profiles delivered" },
 ];
 
 const testimonials = [
@@ -130,11 +129,13 @@ export function TrustSection() {
                 G+D's IoTgo® platform combines hardware, eSIM, and SIM management into a unified stack — from device to cloud.
               </p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 flex-shrink-0" style={{ minWidth: 300 }}>
+            <div className="grid grid-cols-1 gap-4 flex-shrink-0" style={{ minWidth: 320 }}>
               {fullStackFeatures.map((feature) => (
-                <div key={feature} className="flex items-center gap-2">
-                  <CheckCircle2 size={14} style={{ color: "#7ECEFF", flexShrink: 0 }} />
-                  <span style={{ color: "rgba(255,255,255,0.7)", fontSize: 12 }}>{feature}</span>
+                <div key={feature.label} className="flex items-center gap-3">
+                  <div className="flex items-center justify-center" style={{ color: "#28B7F7", flexShrink: 0 }}>
+                    {feature.icon}
+                  </div>
+                  <span style={{ color: "rgba(255,255,255,0.92)", fontSize: 14, fontWeight: 600, lineHeight: 1.4 }}>{feature.label}</span>
                 </div>
               ))}
             </div>
