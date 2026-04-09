@@ -398,14 +398,7 @@ export function CoverageMap() {
             Interactive Coverage Map
           </div>
 
-          <div style={{ fontWeight: 800, fontSize: 24, color: "#0F1C2E", letterSpacing: "-0.02em", lineHeight: 1.1 }}>
-            Visualize available network coverage
-          </div>
-          <p className="mt-3" style={{ color: "#5A6C80", fontSize: 14, lineHeight: 1.65 }}>
-            Filter the map by technology and switch between the global footprint and a Europe-focused view.
-          </p>
-
-          <div className="mt-6">
+          <div className="mt-0">
             <div style={{ fontWeight: 700, color: "#0F1C2E", fontSize: 13, marginBottom: 10 }}>Show</div>
             <div className="space-y-3">
               {NETWORK_OPTIONS.map((network) => {
