@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import gdLogo from "@/assets/GD_SponsLogo_GD_CC.png";
 import { ChevronDown, Search, ShoppingCart, Menu, X, ExternalLink, Wifi, Heart, Truck, Zap, ShoppingBag, Shield, MapPin, Factory, Radio, Users, BookOpen, Video, FileText, Newspaper, BarChart2, Package, Cpu, Code2, LogIn } from "lucide-react";
 
 type Route = "home" | "developers";
@@ -225,6 +226,19 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
           >
             <ShoppingCart size={14} />
             IoT Shop
+          </a>
+
+          <a
+            href="#"
+            className="hidden md:flex items-center"
+            aria-label="Giesecke+Devrient"
+            style={{ marginLeft: 4 }}
+          >
+            <img
+              src={gdLogo}
+              alt="Giesecke+Devrient Creating Confidence"
+              style={{ height: 28, width: "auto", display: "block" }}
+            />
           </a>
 
           <button className="lg:hidden p-2 rounded-lg" style={{ color: "#374151" }} onClick={() => setMobileOpen(!mobileOpen)}>
