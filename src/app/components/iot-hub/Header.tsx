@@ -51,13 +51,7 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
   return (
     <header className="sticky top-0 z-50" style={{ background: "rgba(255,255,255,0.96)", backdropFilter: "blur(12px)", borderBottom: "1px solid #E5E7EB" }}>
       <div className="max-w-screen-xl mx-auto px-6 flex items-center justify-between" style={{ height: "76px" }}>
-        <a href="#" className="flex items-center gap-3 flex-shrink-0">
-          <div
-            className="flex items-center justify-center rounded-md"
-            style={{ width: 36, height: 36, background: "#005BAC", color: "white", fontWeight: 800, fontSize: 17 }}
-          >
-            G
-          </div>
+        <a href="#" className="flex items-center flex-shrink-0">
           <div>
             <div style={{ color: "#111827", fontWeight: 700, fontSize: 16, lineHeight: 1.1 }}>IoTgo® Expert Hub</div>
             <div style={{ color: "#005BAC", fontSize: 11, fontWeight: 600, marginTop: 2 }}>Spotlight</div>
