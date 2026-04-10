@@ -51,7 +51,7 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
 
   return (
     <header className="sticky top-0 z-50" style={{ background: "rgba(255,255,255,0.96)", backdropFilter: "blur(12px)", borderBottom: "1px solid #E5E7EB" }}>
-      <div className="max-w-screen-xl mx-auto px-6 flex items-center justify-between" style={{ height: "76px" }}>
+      <div className="max-w-screen-xl mx-auto px-6 flex items-center justify-between" style={{ height: "86px" }}>
         <a href="#" className="flex items-center flex-shrink-0">
           <div>
             <div style={{ color: "#111827", fontWeight: 700, fontSize: 16, lineHeight: 1.1 }}>IoTgo® Expert Hub</div>
@@ -237,7 +237,7 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
             <img
               src={gdLogo}
               alt="Giesecke+Devrient Creating Confidence"
-              style={{ height: 28, width: "auto", display: "block" }}
+              style={{ height: 44, width: "auto", display: "block" }}
             />
           </a>
 
