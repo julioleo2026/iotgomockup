@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import gdLogo from "@/assets/GD_SponsLogo_GD_CC.png";
+import gdLogo from "@/assets/GD_Logo_GieseckeDevrient.png";
 import { ChevronDown, Search, ShoppingCart, Menu, X, ExternalLink, Wifi, Heart, Truck, Zap, ShoppingBag, Shield, MapPin, Factory, Radio, Users, BookOpen, Video, FileText, Newspaper, BarChart2, Package, Cpu, Code2, LogIn } from "lucide-react";
 
 type Route = "home" | "developers";
