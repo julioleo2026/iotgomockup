@@ -57,7 +57,7 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
             <img
               src={gdLogo}
               alt="Giesecke+Devrient Creating Confidence"
-              style={{ height: 16, width: "auto", display: "block", marginBottom: 6 }}
+              style={{ height: 19.2, width: "auto", display: "block", marginBottom: 6 }}
             />
             <div style={{ color: "#111827", fontWeight: 700, fontSize: 13.6, lineHeight: 1.1 }}>IoTgo® Expert Hub</div>
           </div>
