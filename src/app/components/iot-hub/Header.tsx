@@ -54,12 +54,12 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
       <div className="max-w-screen-xl mx-auto px-6 flex items-center justify-between" style={{ height: "86px" }}>
         <a href="#" className="flex items-center flex-shrink-0">
           <div>
-            <div style={{ color: "#111827", fontWeight: 700, fontSize: 16, lineHeight: 1.1 }}>IoTgo® Expert Hub</div>
             <img
               src={gdLogo}
               alt="Giesecke+Devrient Creating Confidence"
-              style={{ height: 26, width: "auto", display: "block", marginTop: 6 }}
+              style={{ height: 16, width: "auto", display: "block", marginBottom: 6 }}
             />
+            <div style={{ color: "#111827", fontWeight: 700, fontSize: 13.6, lineHeight: 1.1 }}>IoTgo® Expert Hub</div>
           </div>
         </a>
 
