@@ -55,7 +55,11 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
         <a href="#" className="flex items-center flex-shrink-0">
           <div>
             <div style={{ color: "#111827", fontWeight: 700, fontSize: 16, lineHeight: 1.1 }}>IoTgo® Expert Hub</div>
-            <div style={{ color: "#005BAC", fontSize: 11, fontWeight: 600, marginTop: 2 }}>Spotlight</div>
+            <img
+              src={gdLogo}
+              alt="Giesecke+Devrient Creating Confidence"
+              style={{ height: 26, width: "auto", display: "block", marginTop: 6 }}
+            />
           </div>
         </a>
 
@@ -228,18 +232,6 @@ export function Header({ currentRoute }: { currentRoute: Route }) {
             IoT Shop
           </a>
 
-          <a
-            href="#"
-            className="hidden md:flex items-center"
-            aria-label="Giesecke+Devrient"
-            style={{ marginLeft: 4 }}
-          >
-            <img
-              src={gdLogo}
-              alt="Giesecke+Devrient Creating Confidence"
-              style={{ height: 44, width: "auto", display: "block" }}
-            />
-          </a>
 
           <button className="lg:hidden p-2 rounded-lg" style={{ color: "#374151" }} onClick={() => setMobileOpen(!mobileOpen)}>
             {mobileOpen ? <X size={20} /> : <Menu size={20} />}
